@@ -1,0 +1,104 @@
+/* Layout */
+.page, .post {
+  margin-bottom: 0;
+}
+
+.site-header {
+  position: fixed;
+  z-index: 1;
+  background-color: #333333;
+}
+
+.custom-logo-link {
+  height: 58px;;
+}
+
+.site-main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  padding-top: 20px;;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* Typography */
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+h1, h2 {
+  color: black;
+}
+
+h3 {
+  color: black;
+  font-size: medium;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+
+/* Bootstrap Button overrides */
+.btn-primary {
+  color: #fff;
+  background-color: deeppink;
+  border-color: deeppink;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: purple;
+  border-color: purple;
+}
+
+
+/* Navigation Menu */
+.nav-menu li {
+  padding-left: 12px; 
+  padding-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 18px;
+}
+
+.nav-menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-menu li.current_page_item {
+  background-color: green;
+}
+
+.nav-menu li:hover {
+  background-color: #aaaaaa;
+}
+
+
+/* Forms */
+.nf-form-cont .ninja-forms-field.nf-element{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* ^ this is copied from Bootstrap's Forms CSS */
