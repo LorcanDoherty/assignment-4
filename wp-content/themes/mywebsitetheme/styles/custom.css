@@ -85,6 +85,12 @@ h3 {
   background-color: #aaaaaa;
 }
 
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+
 
 /* Forms */
 .nf-form-cont .ninja-forms-field.nf-element{
